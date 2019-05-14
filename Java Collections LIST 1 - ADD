@@ -4,14 +4,14 @@ public class CollectionsListTest {
 
    public static void main(String[] args) {
       List first = new ArrayList();
-      first.add("Ryan");
+      first.add("Brainy");
       first.add("Julie");
       first.add("Matthew");
       System.out.println(" ArrayList Elements");
       System.out.print("\t" + first);
 
       List second = new LinkedList();
-      second.add("Ryan");
+      second.add("Brainy");
       second.add("Julie");
       second.add("Matthew");
       System.out.println();
@@ -22,6 +22,6 @@ public class CollectionsListTest {
 
 The Result:
 ArrayList Elements
-	[Ryan, Julie, Matthew]
+	[Brainy, Julie, Matthew]
  LinkedList Elements
-	[Ryan, Julie, Matthew]
+	[Brainy, Julie, Matthew]
